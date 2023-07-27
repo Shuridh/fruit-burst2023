@@ -29,6 +29,9 @@
     .shadow1{
       box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
     }
+    .f{
+      border: 1px solid #F85559;
+    }
   </style>
 </head>
 <body class="project-font">
@@ -70,7 +73,7 @@
              </div>
          </div>
        </div>
-       <div class=" lg: relative -top-28 flex justify-center items-center gap-20 rounded-lg w-[70rem] ml-20 h-64 bg-[#FFF] text-center shadow1">
+       <div class=" hidden lg:flex relative -top-28 justify-center items-center gap-20 rounded-lg w-[70rem] ml-20 h-64 bg-[#FFF] text-center shadow1">
          <figure class="text-center font-medium">
           <img src="images/fruit1.png" alt="">
           <figcaption>
@@ -135,13 +138,29 @@
                     <img src="images/Group 24.jpg" alt="">
                   </div>
                   <div>
-                    <p class="text-[#F85559] text-lg font-bold">Details</p>
+                    <p class="text-[#F85559] text-lg font-bold"><button class="btn text-[#F85559] bg-[#FFF]" onclick="my_modal_2.showModal()">Details</button>
+                      <dialog id="my_modal_2" class="modal">
+                        <div class="card w-auto bg-[#FFF] shadow-xl">
+                          <figure class="px-10 pt-10">
+                            <img src="images/fruit6.png" alt="" class="rounded-xl" />
+                          </figure>
+                          <div class="card-body items-center text-center">
+                            <h2 class="card-title text-4xl font-extrabold bg-[#FFF] text-[#121212] mb-6">Apples</h2>
+                            <p class="font-medium text-gray-300 mb-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <img src="images/Group 24.jpg" alt="">
+                            <div class="card-actions flex">
+                              <button class="btn f bg-white text-[#F85559] rounded-xl">Close</button>
+                              <button class="btn bg-[#F85559] text-[#FFFFFF] rounded-xl">Buy Now</button>
+                            </div>
+                          </div>
+                        </div>
+                      </dialog></p>
                   </div>
                 </div>
             </div>
             <div class="card w-80 h-[29rem] rounded-xl">
                 <figure class="px-20 pt-8">
-                  <img src="images/fruit7.png" alt="Apple" class="rounded-xl w-24 h-32" />
+                  <img src="images/fruit7.png" alt="" class="rounded-xl w-24 h-32" />
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title text-2xl mt-4 bg-[#FFF] text-[#121212] font-semibold">12.90$-18.85$</h2>
@@ -153,13 +172,29 @@
                     <img src="images/Group 24.jpg" alt="">
                   </div>
                   <div>
-                    <p class="text-[#F85559] text-lg font-bold">Details</p>
+                    <p class="text-[#F85559] text-lg font-bold"><button class="btn text-[#F85559] bg-[#FFF]" onclick="my_modal_3.showModal()">Details</button>
+                      <dialog id="my_modal_3" class="modal">
+                        <div class="card w-auto bg-[#FFF] shadow-xl">
+                          <figure class="px-10 pt-10">
+                            <img src="images/fruit7.png" alt="" class="rounded-xl" />
+                          </figure>
+                          <div class="card-body items-center text-center">
+                            <h2 class="card-title text-4xl font-extrabold bg-[#FFF] text-[#121212] mb-6">Orange</h2>
+                            <p class="font-medium text-gray-300 mb-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <img src="images/Group 24.jpg" alt="">
+                            <div class="card-actions flex">
+                              <button class="btn f bg-white text-[#F85559] rounded-xl">Close</button>
+                              <button class="btn bg-[#F85559] text-[#FFFFFF] rounded-xl">Buy Now</button>
+                            </div>
+                          </div>
+                        </div>
+                      </dialog></p>
                   </div>
                 </div>
             </div>
             <div class="card w-80 h-[29rem] rounded-xl">
                 <figure class="px-20 pt-8">
-                  <img src="images/fruit8.png" alt="Apple" class="rounded-xl w-24 h-32" />
+                  <img src="images/fruit8.png" alt="" class="rounded-xl w-24 h-32" />
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title text-2xl mt-4 bg-[#FFF] text-[#121212] font-semibold">12.90$-18.85$</h2>
@@ -171,7 +206,24 @@
                     <img src="images/Group 24.jpg" alt="">
                   </div>
                   <div>
-                    <p class="text-[#F85559] text-lg font-bold">Details</p>
+                    <p class="text-[#F85559] text-lg font-bold">
+                      <button class="btn text-[#F85559] bg-[#FFF]" onclick="my_modal_4.showModal()">Details</button>
+                      <dialog id="my_modal_4" class="modal">
+                        <div class="card w-auto bg-[#FFF] shadow-xl">
+                          <figure class="px-10 pt-10">
+                            <img src="images/fruit8.png" alt="" class="rounded-xl" />
+                          </figure>
+                          <div class="card-body items-center text-center">
+                            <h2 class="card-title text-4xl font-extrabold bg-[#FFF] text-[#121212] mb-6">Red Dragon</h2>
+                            <p class="font-medium text-gray-300 mb-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <img src="images/Group 24.jpg" alt="">
+                            <div class="card-actions flex">
+                              <button class="btn f bg-white text-[#F85559] rounded-xl">Close</button>
+                              <button class="btn bg-[#F85559] text-[#FFFFFF] rounded-xl">Buy Now</button>
+                            </div>
+                          </div>
+                        </div>
+                      </dialog></p>
                   </div>
                 </div>
             </div>
@@ -189,7 +241,22 @@
                     <img src="images/Group 24.jpg" alt="">
                   </div>
                   <div>
-                    <p class="text-[#F85559] text-lg font-bold">Details</p>
+                    <p class="text-[#F85559] text-lg font-bold"><button class="btn text-[#F85559] bg-[#FFF]" onclick="my_modal_5.showModal()">Details</button>
+                      <dialog id="my_modal_5" class="modal">
+                        <div class="card w-auto bg-[#FFF] shadow-xl">
+                          <figure class="px-10 pt-10">
+                          </figure>
+                          <div class="card-body items-center text-center">
+                            <h2 class="card-title text-4xl font-extrabold bg-[#FFF] text-[#121212] mb-6">Banana</h2>
+                            <p class="font-medium text-gray-300 mb-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <img src="images/Group 24.jpg" alt="">
+                            <div class="card-actions flex">
+                              <button class="btn f bg-white text-[#F85559] rounded-xl">Close</button>
+                              <button class="btn bg-[#F85559] text-[#FFFFFF] rounded-xl">Buy Now</button>
+                            </div>
+                          </div>
+                        </div>
+                      </dialog></p>
             </div>
         </section>
         <div class="mt-12 text-center">
